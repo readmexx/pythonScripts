@@ -1,4 +1,4 @@
-### This Script Convers an ICO file to a CUR file and lets you set a custom hotspot for exactly where the cursor click occurs
+# This Script Convers an ICO file to a CUR file and lets you set a custom hotspot for exactly where the cursor click occurs
 import argparse
 
 def ico_to_cur(ico_path, cur_path, hotspot_x, hotspot_y):
@@ -30,4 +30,5 @@ if __name__ == "__main__":
 
     ico_to_cur(args.ico_file, args.cur_file, args.hotspot_x, args.hotspot_y)
     pause
+
 
